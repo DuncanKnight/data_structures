@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PrimeHappy
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int IsPrimeHappy(int n)
+            {
+                int isPrimeHappy = 1;
+                int count = 0, sum = 0;
+
+                for (int i = 0; i < n; i++)
+                {
+                    if (isPrime(i))
+                    {
+                        count++;
+                        sum += i;
+                    }
+                }
+
+                if (count < 1) isPrimeHappy = 0;
+                if (sum % n != 0) isPrimeHappy = 0;
+
+                return isPrimeHappy;
+            }
+
+            bool isPrime(int n)
+            {
+                if (n <= 1) return false;
+                for (int i = 2; i <= n / 2; i++)
+                {
+                    if (n % i == 0) return false;
+                }
+                return true;
+            }
+
+            int result = IsPrimeHappy(5);
+            Console.WriteLine(result);
+
+            result = IsPrimeHappy(25);
+            Console.WriteLine(result);
+
+            result = IsPrimeHappy(32);
+            Console.WriteLine(result);
+
+            result = IsPrimeHappy(8);
+            Console.WriteLine(result);
+
+            result = IsPrimeHappy(2);
+            Console.WriteLine(result);
+
+            Console.ReadKey();
+        }
+    }
+}

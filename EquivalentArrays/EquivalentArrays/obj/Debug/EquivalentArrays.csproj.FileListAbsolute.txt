@@ -1,0 +1,7 @@
+E:\Jarvis\MUM - Maharishi University of Management\Test\EquivalentArrays\EquivalentArrays\bin\Debug\EquivalentArrays.exe.config
+E:\Jarvis\MUM - Maharishi University of Management\Test\EquivalentArrays\EquivalentArrays\bin\Debug\EquivalentArrays.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\EquivalentArrays\EquivalentArrays\bin\Debug\EquivalentArrays.pdb
+E:\Jarvis\MUM - Maharishi University of Management\Test\EquivalentArrays\EquivalentArrays\obj\Debug\EquivalentArrays.csprojAssemblyReference.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\EquivalentArrays\EquivalentArrays\obj\Debug\EquivalentArrays.csproj.CoreCompileInputs.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\EquivalentArrays\EquivalentArrays\obj\Debug\EquivalentArrays.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\EquivalentArrays\EquivalentArrays\obj\Debug\EquivalentArrays.pdb

@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MadhavArray
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int IsMadhavArray(int[] a)
+            {
+                int isMadhav = 1;
+
+                if (a.Length < 3) return 0;
+
+                int lengthIsMadhav = 0;
+
+                for (int x = 1; x <= a.Length; x++)
+                {
+                    if (a.Length == x * (x + 1) / 2)
+                        lengthIsMadhav = 1;
+                }
+
+                if (lengthIsMadhav == 0) return 0;
+
+                int indexStart = 1;
+                int round = 1;
+                int firstVal = a[0];
+                int indexEnd = indexStart + round;
+
+                while (isMadhav == 1 && indexEnd <= a.Length)
+                {
+                    int sum = 0;
+
+                    for (int x = indexStart; x <= indexEnd; x++)
+                    {
+                        sum += a[x];
+                    }
+
+                    if (firstVal != sum) isMadhav = 0;
+
+                    round++;
+                    indexStart = indexEnd + 1;
+                    indexEnd = indexStart + round;
+                }
+
+                return isMadhav;
+            }
+
+            int result = IsMadhavArray(new int[] { 2, 1, 1 });
+            Console.WriteLine(result);
+
+            result = IsMadhavArray(new int[] { 2, 1, 1, 4, -1, -1 });
+            Console.WriteLine(result);
+
+            result = IsMadhavArray(new int[] { 6, 2, 4, 2, 2, 2, 1, 5, 0, 0 });
+            Console.WriteLine(result);
+
+            result = IsMadhavArray(new int[] { 18, 9, 10, 6, 6, 6 });
+            Console.WriteLine(result);
+
+            result = IsMadhavArray(new int[] { -6, -3, -3, 8, -5, -4 });
+            Console.WriteLine(result);
+
+            result = IsMadhavArray(new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, -2, -1 });
+            Console.WriteLine(result);
+
+            Console.ReadKey();
+        }
+    }
+}

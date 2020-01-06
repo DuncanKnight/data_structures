@@ -1,0 +1,7 @@
+E:\Jarvis\MUM - Maharishi University of Management\Test\SelfReferential\SelfReferential\bin\Debug\SelfReferential.exe.config
+E:\Jarvis\MUM - Maharishi University of Management\Test\SelfReferential\SelfReferential\bin\Debug\SelfReferential.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\SelfReferential\SelfReferential\bin\Debug\SelfReferential.pdb
+E:\Jarvis\MUM - Maharishi University of Management\Test\SelfReferential\SelfReferential\obj\Debug\SelfReferential.csprojAssemblyReference.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\SelfReferential\SelfReferential\obj\Debug\SelfReferential.csproj.CoreCompileInputs.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\SelfReferential\SelfReferential\obj\Debug\SelfReferential.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\SelfReferential\SelfReferential\obj\Debug\SelfReferential.pdb

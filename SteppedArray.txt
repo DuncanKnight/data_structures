@@ -1,0 +1,73 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SteppedArray
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int IsStepped(int[] a)
+            {
+                int isStepped = 1;
+                int count = 0, current = 0, next = 0;
+
+                for (int i = 0; i < a.Length && isStepped == 1; i++)
+                {
+                    int k = (i == a.Length - 1) == true ? i : i + 1;
+                    current = a[i];
+                    next = a[k];
+                    
+                    if (current > next)
+                        isStepped = 0;
+                    else
+                    {
+                        if (current == next)
+                        {
+                            count++;
+                        }
+                        else
+                        {
+                            if (current == a[i - 1])
+                                count++;
+                            if (count < 3) isStepped = 0;
+                            count = 0;
+                        }
+                    }
+                    if (i == a.Length - 1) 
+                    {
+                        if (count < 3) isStepped = 0;
+                    }
+                }
+
+                return isStepped;
+            }
+
+            int result = IsStepped(new int[] { 1, 1, 1, 5, 5, 5, 5, 8, 8, 8 });
+            Console.WriteLine(result);
+
+            result = IsStepped(new int[] { 1, 1, 5, 5, 5, 5, 8, 8, 8 });
+            Console.WriteLine(result);
+
+            result = IsStepped(new int[] { 5, 5, 5, 15 });
+            Console.WriteLine(result);
+
+            result = IsStepped(new int[] { 3, 3, 3, 2, 2, 2, 5, 5, 5 });
+            Console.WriteLine(result);
+
+            result = IsStepped(new int[] { 3, 3, 3, 2, 2, 2, 1, 1, 1 });
+            Console.WriteLine(result);
+
+            result = IsStepped(new int[] { 1, 1, 1 });
+            Console.WriteLine(result);
+
+            result = IsStepped(new int[] { 1, 1, 1, 1, 1, 1, 1 });
+            Console.WriteLine(result);
+
+            Console.ReadKey();
+        }
+    }
+}

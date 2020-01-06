@@ -1,0 +1,7 @@
+E:\Jarvis\MUM - Maharishi University of Management\Test\PrimeHappy\PrimeHappy\bin\Debug\PrimeHappy.exe.config
+E:\Jarvis\MUM - Maharishi University of Management\Test\PrimeHappy\PrimeHappy\bin\Debug\PrimeHappy.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\PrimeHappy\PrimeHappy\bin\Debug\PrimeHappy.pdb
+E:\Jarvis\MUM - Maharishi University of Management\Test\PrimeHappy\PrimeHappy\obj\Debug\PrimeHappy.csprojAssemblyReference.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\PrimeHappy\PrimeHappy\obj\Debug\PrimeHappy.csproj.CoreCompileInputs.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\PrimeHappy\PrimeHappy\obj\Debug\PrimeHappy.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\PrimeHappy\PrimeHappy\obj\Debug\PrimeHappy.pdb

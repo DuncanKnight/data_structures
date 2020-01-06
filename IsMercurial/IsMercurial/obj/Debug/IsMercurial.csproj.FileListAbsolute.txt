@@ -1,0 +1,7 @@
+E:\Jarvis\MUM - Maharishi University of Management\Test\IsMercurial\IsMercurial\bin\Debug\IsMercurial.exe.config
+E:\Jarvis\MUM - Maharishi University of Management\Test\IsMercurial\IsMercurial\bin\Debug\IsMercurial.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\IsMercurial\IsMercurial\bin\Debug\IsMercurial.pdb
+E:\Jarvis\MUM - Maharishi University of Management\Test\IsMercurial\IsMercurial\obj\Debug\IsMercurial.csprojAssemblyReference.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\IsMercurial\IsMercurial\obj\Debug\IsMercurial.csproj.CoreCompileInputs.cache
+E:\Jarvis\MUM - Maharishi University of Management\Test\IsMercurial\IsMercurial\obj\Debug\IsMercurial.exe
+E:\Jarvis\MUM - Maharishi University of Management\Test\IsMercurial\IsMercurial\obj\Debug\IsMercurial.pdb

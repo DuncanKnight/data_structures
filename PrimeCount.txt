@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PrimeCount
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int PrimeCount(int start, int end)
+            {
+                int count = 0;
+
+                for (int i = start; i <= end; i++)
+                {
+                    if (IsPrime(i))
+                        count++;
+                }
+
+                return count;
+            }
+
+            bool IsPrime(int num)
+            {
+                if (num <= 1) return false;
+
+                for (int x = 2; x <= num / 2; x++)
+                {
+                    if (num % x == 0)
+                        return false;
+                }
+                return true;
+            }
+
+            int result = PrimeCount(10, 30);
+            Console.WriteLine(result);
+
+            result = PrimeCount(11, 29);
+            Console.WriteLine(result);
+
+            result = PrimeCount(20, 22);
+            Console.WriteLine(result);
+
+            result = PrimeCount(1, 1);
+            Console.WriteLine(result);
+
+            result = PrimeCount(5, 5);
+            Console.WriteLine(result);
+
+            result = PrimeCount(6, 2);
+            Console.WriteLine(result);
+
+            result = PrimeCount(-10, 6);
+            Console.WriteLine(result);
+
+            Console.ReadKey();
+        }
+    }
+}
